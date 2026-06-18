@@ -1,0 +1,30 @@
+FinAgentAI/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .env.example
+│
+├── agents/
+│   ├── market_agent.py
+│   ├── sentiment_agent.py
+│   ├── technical_agent.py
+│   ├── risk_agent.py
+│   └── portfolio_agent.py
+│
+├── services/
+│   ├── yahoo_finance.py
+│   ├── news_fetcher.py
+│   └── recommendation_engine.py
+│
+├── models/
+│   └── forecasting.py
+│
+├── dashboards/
+│   └── streamlit_dashboard.py
+│
+├── utils/
+│   ├── config.py
+│   └── logger.py
+│
+└── data/
